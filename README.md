@@ -93,6 +93,17 @@ Here are some examples of how to use selectors to find and interact with element
 ```
 ## You can use the following selector in your test:
 
+- Method to fill in field
+In the example, pass the attribute and the text with the action that will occur
+
 ```java
-methods.fill("#username", "standard_user", "Filling in the Username field");
+methods.fill("#username", "Filling in the Username field");
 ```
+
+- Click method
+In the example, pass the attribute and the text with the action that will occur
+
+```java
+methods.click("#button", "Click on the login button");
+```
+
